@@ -1,0 +1,554 @@
+[30-Apr-2019 14:48:00 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[30-Apr-2019 14:48:00 UTC] PHP Stack trace:
+[30-Apr-2019 14:48:00 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\index.php:0
+[30-Apr-2019 14:48:00 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\index.php:10
+[30-Apr-2019 14:48:00 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[30-Apr-2019 14:48:00 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[30-Apr-2019 14:48:00 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[30-Apr-2019 14:48:00 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[30-Apr-2019 14:48:00 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[30-Apr-2019 14:48:00 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[30-Apr-2019 14:49:03 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[30-Apr-2019 14:49:03 UTC] PHP Stack trace:
+[30-Apr-2019 14:49:03 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\index.php:0
+[30-Apr-2019 14:49:03 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\index.php:10
+[30-Apr-2019 14:49:03 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[30-Apr-2019 14:49:03 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[30-Apr-2019 14:49:03 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[30-Apr-2019 14:49:03 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[30-Apr-2019 14:49:03 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[30-Apr-2019 14:49:03 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[30-Apr-2019 18:31:38 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 4486
+[30-Apr-2019 18:31:38 UTC] PHP Stack trace:
+[30-Apr-2019 18:31:38 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\index.php:0
+[30-Apr-2019 18:31:38 UTC] PHP   2. require() C:\xampp\htdocs\wordpress\index.php:17
+[30-Apr-2019 18:31:38 UTC] PHP   3. require_once() C:\xampp\htdocs\wordpress\wp-blog-header.php:19
+[30-Apr-2019 18:31:38 UTC] PHP   4. include() C:\xampp\htdocs\wordpress\wp-includes\template-loader.php:77
+[30-Apr-2019 18:31:38 UTC] PHP   5. comments_template() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\single.php:25
+[30-Apr-2019 18:31:38 UTC] PHP   6. require() C:\xampp\htdocs\wordpress\wp-includes\comment-template.php:1514
+[30-Apr-2019 18:31:38 UTC] PHP   7. _deprecated_file() C:\xampp\htdocs\wordpress\wp-includes\theme-compat\comments.php:15
+[30-Apr-2019 18:31:38 UTC] PHP   8. trigger_error() C:\xampp\htdocs\wordpress\wp-includes\functions.php:4486
+[01-May-2019 04:53:05 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\xampp\htdocs\wordpress\wp-includes\cache.php:726
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\cache.php(544): WP_Object_Cache->_exists(3, 'comment')
+#1 C:\xampp\htdocs\wordpress\wp-includes\cache.php(123): WP_Object_Cache->get(3, 'comment', false, NULL)
+#2 C:\xampp\htdocs\wordpress\wp-includes\functions.php(5824): wp_cache_get(3, 'comment')
+#3 C:\xampp\htdocs\wordpress\wp-includes\comment.php(2995): _get_non_cached_ids(Array, 'comment')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-comment-query.php(427): _prime_comment_caches(Array, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-comment-query.php(346): WP_Comment_Query->get_comments()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-comment-query.php(303): WP_Comment_Query->query(Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1445): WP_Comment_Query->__construct(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\com in C:\xampp\htdocs\wordpress\wp-includes\cache.php on line 726
+[01-May-2019 04:54:18 UTC] PHP Fatal error:  Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\xampp\htdocs\wordpress\wp-includes\cache.php:726
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\cache.php(544): WP_Object_Cache->_exists(3, 'comment')
+#1 C:\xampp\htdocs\wordpress\wp-includes\cache.php(123): WP_Object_Cache->get(3, 'comment', false, NULL)
+#2 C:\xampp\htdocs\wordpress\wp-includes\functions.php(5824): wp_cache_get(3, 'comment')
+#3 C:\xampp\htdocs\wordpress\wp-includes\comment.php(2995): _get_non_cached_ids(Array, 'comment')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-comment-query.php(427): _prime_comment_caches(Array, false)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-comment-query.php(346): WP_Comment_Query->get_comments()
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-comment-query.php(303): WP_Comment_Query->query(Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\comment-template.php(1445): WP_Comment_Query->__construct(Array)
+#8 C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\com in C:\xampp\htdocs\wordpress\wp-includes\cache.php on line 726
+[01-May-2019 04:55:22 UTC] PHP Notice:  Theme without comments.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a comments.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 4486
+[01-May-2019 04:55:22 UTC] PHP Stack trace:
+[01-May-2019 04:55:22 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\index.php:0
+[01-May-2019 04:55:22 UTC] PHP   2. require() C:\xampp\htdocs\wordpress\index.php:17
+[01-May-2019 04:55:22 UTC] PHP   3. require_once() C:\xampp\htdocs\wordpress\wp-blog-header.php:19
+[01-May-2019 04:55:22 UTC] PHP   4. include() C:\xampp\htdocs\wordpress\wp-includes\template-loader.php:77
+[01-May-2019 04:55:22 UTC] PHP   5. comments_template() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\single.php:25
+[01-May-2019 04:55:22 UTC] PHP   6. require() C:\xampp\htdocs\wordpress\wp-includes\comment-template.php:1514
+[01-May-2019 04:55:22 UTC] PHP   7. _deprecated_file() C:\xampp\htdocs\wordpress\wp-includes\theme-compat\comments.php:15
+[01-May-2019 04:55:22 UTC] PHP   8. trigger_error() C:\xampp\htdocs\wordpress\wp-includes\functions.php:4486
+[01-May-2019 14:26:30 UTC] PHP Notice:  Undefined index: panelsData in C:\xampp\htdocs\wordpress\wp-content\plugins\siteorigin-panels\inc\admin.php on line 1123
+[01-May-2019 14:26:30 UTC] PHP Stack trace:
+[01-May-2019 14:26:30 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php:0
+[01-May-2019 14:26:30 UTC] PHP   2. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php:167
+[01-May-2019 14:26:30 UTC] PHP   3. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 14:26:30 UTC] PHP   4. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 14:26:30 UTC] PHP   5. SiteOrigin_Panels_Admin->layout_block_preview() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:34:32 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[01-May-2019 15:34:32 UTC] PHP Stack trace:
+[01-May-2019 15:34:32 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\post.php:0
+[01-May-2019 15:34:32 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\post.php:12
+[01-May-2019 15:34:32 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 15:34:32 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 15:34:32 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 15:34:32 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:34:32 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:34:32 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:34:53 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[01-May-2019 15:34:53 UTC] PHP Stack trace:
+[01-May-2019 15:34:53 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\index.php:0
+[01-May-2019 15:34:53 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\index.php:10
+[01-May-2019 15:34:53 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 15:34:53 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 15:34:53 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 15:34:53 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:34:53 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:34:53 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:36:01 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[01-May-2019 15:36:01 UTC] PHP Stack trace:
+[01-May-2019 15:36:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\index.php:0
+[01-May-2019 15:36:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\index.php:10
+[01-May-2019 15:36:01 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 15:36:01 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 15:36:01 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 15:36:01 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:36:01 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:36:01 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:36:11 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[01-May-2019 15:36:11 UTC] PHP Stack trace:
+[01-May-2019 15:36:11 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\index.php:0
+[01-May-2019 15:36:11 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\index.php:10
+[01-May-2019 15:36:11 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 15:36:11 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 15:36:11 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 15:36:11 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:36:11 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:36:11 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:54:34 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[01-May-2019 15:54:34 UTC] PHP Stack trace:
+[01-May-2019 15:54:34 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\index.php:0
+[01-May-2019 15:54:34 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\index.php:10
+[01-May-2019 15:54:34 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 15:54:34 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 15:54:34 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 15:54:34 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:54:34 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:54:34 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:54:42 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[01-May-2019 15:54:42 UTC] PHP Stack trace:
+[01-May-2019 15:54:42 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\index.php:0
+[01-May-2019 15:54:42 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\index.php:10
+[01-May-2019 15:54:42 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 15:54:42 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 15:54:42 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 15:54:42 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:54:42 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:54:42 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:54:50 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[01-May-2019 15:54:50 UTC] PHP Stack trace:
+[01-May-2019 15:54:50 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\index.php:0
+[01-May-2019 15:54:50 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\index.php:10
+[01-May-2019 15:54:50 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 15:54:50 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 15:54:50 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 15:54:50 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:54:50 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:54:50 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 314
+[01-May-2019 15:55:01 UTC] PHP Stack trace:
+[01-May-2019 15:55:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 15:55:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 15:55:01 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 15:55:01 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 15:55:01 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 15:55:01 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:55:01 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:55:01 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 329
+[01-May-2019 15:55:01 UTC] PHP Stack trace:
+[01-May-2019 15:55:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 15:55:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 15:55:01 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 15:55:01 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 15:55:01 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 15:55:01 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:55:01 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:55:01 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:329) in C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php on line 1198
+[01-May-2019 15:55:01 UTC] PHP Stack trace:
+[01-May-2019 15:55:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 15:55:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 15:55:01 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:169
+[01-May-2019 15:55:01 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:55:01 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:55:01 UTC] PHP   6. wp_admin_headers() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP   7. header() C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php:1198
+[01-May-2019 15:55:01 UTC] PHP Notice:  Undefined index: saved in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 343
+[01-May-2019 15:55:01 UTC] PHP Stack trace:
+[01-May-2019 15:55:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 15:55:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 15:55:01 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 15:55:01 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:55:01 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:55:01 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP Notice:  Undefined index: reset_all in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 346
+[01-May-2019 15:55:01 UTC] PHP Stack trace:
+[01-May-2019 15:55:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 15:55:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 15:55:01 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 15:55:01 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:55:01 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:55:01 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 133
+[01-May-2019 15:55:01 UTC] PHP Stack trace:
+[01-May-2019 15:55:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 15:55:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 15:55:01 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 15:55:01 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:55:01 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:55:01 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 15:55:01 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 15:55:01 UTC] PHP Notice:  Undefined index: std in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 134
+[01-May-2019 15:55:01 UTC] PHP Stack trace:
+[01-May-2019 15:55:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 15:55:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 15:55:01 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 15:55:01 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:55:01 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:55:01 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 15:55:01 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 15:55:01 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 140
+[01-May-2019 15:55:01 UTC] PHP Stack trace:
+[01-May-2019 15:55:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 15:55:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 15:55:01 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 15:55:01 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:55:01 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:55:01 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 15:55:01 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 15:55:01 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 140
+[01-May-2019 15:55:01 UTC] PHP Stack trace:
+[01-May-2019 15:55:01 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 15:55:01 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 15:55:01 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 15:55:01 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 15:55:01 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 15:55:01 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 15:55:01 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 15:55:01 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:01:37 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 314
+[01-May-2019 16:01:37 UTC] PHP Stack trace:
+[01-May-2019 16:01:37 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:01:37 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:01:37 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 16:01:37 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 16:01:37 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 16:01:37 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:01:37 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:01:37 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:01:37 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 329
+[01-May-2019 16:01:37 UTC] PHP Stack trace:
+[01-May-2019 16:01:37 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:01:37 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:01:37 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 16:01:37 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 16:01:37 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 16:01:37 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:01:37 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:01:37 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:01:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:329) in C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php on line 1198
+[01-May-2019 16:01:37 UTC] PHP Stack trace:
+[01-May-2019 16:01:37 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:01:37 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:01:37 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:169
+[01-May-2019 16:01:37 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:01:37 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:01:37 UTC] PHP   6. wp_admin_headers() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:01:37 UTC] PHP   7. header() C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php:1198
+[01-May-2019 16:01:37 UTC] PHP Notice:  Undefined index: saved in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 343
+[01-May-2019 16:01:37 UTC] PHP Stack trace:
+[01-May-2019 16:01:37 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:01:37 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:01:37 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:01:37 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:01:37 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:01:37 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:01:37 UTC] PHP Notice:  Undefined index: reset_all in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 346
+[01-May-2019 16:01:37 UTC] PHP Stack trace:
+[01-May-2019 16:01:37 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:01:37 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:01:37 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:01:37 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:01:37 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:01:37 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:01:37 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 133
+[01-May-2019 16:01:37 UTC] PHP Stack trace:
+[01-May-2019 16:01:37 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:01:37 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:01:37 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:01:37 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:01:37 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:01:37 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:01:37 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:01:37 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:01:37 UTC] PHP Notice:  Undefined index: std in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 134
+[01-May-2019 16:01:37 UTC] PHP Stack trace:
+[01-May-2019 16:01:37 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:01:37 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:01:37 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:01:37 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:01:37 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:01:37 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:01:37 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:01:37 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:01:37 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 140
+[01-May-2019 16:01:37 UTC] PHP Stack trace:
+[01-May-2019 16:01:37 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:01:37 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:01:37 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:01:37 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:01:37 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:01:37 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:01:37 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:01:37 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:01:37 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 140
+[01-May-2019 16:01:37 UTC] PHP Stack trace:
+[01-May-2019 16:01:37 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:01:37 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:01:37 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:01:37 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:01:37 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:01:37 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:01:37 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:01:37 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:26:09 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 314
+[01-May-2019 16:26:09 UTC] PHP Stack trace:
+[01-May-2019 16:26:09 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:09 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:09 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 16:26:09 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 16:26:09 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 16:26:09 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:09 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:09 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:09 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 329
+[01-May-2019 16:26:09 UTC] PHP Stack trace:
+[01-May-2019 16:26:09 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:09 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:09 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 16:26:09 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 16:26:09 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 16:26:09 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:09 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:09 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:329) in C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php on line 1198
+[01-May-2019 16:26:09 UTC] PHP Stack trace:
+[01-May-2019 16:26:09 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:09 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:09 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:169
+[01-May-2019 16:26:09 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:09 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:09 UTC] PHP   6. wp_admin_headers() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:09 UTC] PHP   7. header() C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php:1198
+[01-May-2019 16:26:09 UTC] PHP Notice:  Undefined index: saved in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 343
+[01-May-2019 16:26:09 UTC] PHP Stack trace:
+[01-May-2019 16:26:09 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:09 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:09 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:09 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:09 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:09 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:09 UTC] PHP Notice:  Undefined index: reset in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 346
+[01-May-2019 16:26:09 UTC] PHP Stack trace:
+[01-May-2019 16:26:09 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:09 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:09 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:09 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:09 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:09 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:09 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 133
+[01-May-2019 16:26:09 UTC] PHP Stack trace:
+[01-May-2019 16:26:09 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:09 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:09 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:09 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:09 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:09 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:09 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:26:09 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:26:09 UTC] PHP Notice:  Undefined index: std in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 134
+[01-May-2019 16:26:09 UTC] PHP Stack trace:
+[01-May-2019 16:26:09 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:09 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:09 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:09 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:09 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:09 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:09 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:26:09 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:26:09 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 140
+[01-May-2019 16:26:09 UTC] PHP Stack trace:
+[01-May-2019 16:26:09 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:09 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:09 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:09 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:09 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:09 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:09 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:26:09 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:26:09 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 140
+[01-May-2019 16:26:09 UTC] PHP Stack trace:
+[01-May-2019 16:26:09 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:09 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:09 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:09 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:09 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:09 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:09 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:26:09 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:26:15 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 314
+[01-May-2019 16:26:15 UTC] PHP Stack trace:
+[01-May-2019 16:26:15 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:15 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:15 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 16:26:15 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 16:26:15 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 16:26:15 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:15 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:15 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:15 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 329
+[01-May-2019 16:26:15 UTC] PHP Stack trace:
+[01-May-2019 16:26:15 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:15 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:15 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 16:26:15 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 16:26:15 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 16:26:15 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:15 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:15 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:329) in C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php on line 1198
+[01-May-2019 16:26:15 UTC] PHP Stack trace:
+[01-May-2019 16:26:15 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:15 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:15 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:169
+[01-May-2019 16:26:15 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:15 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:15 UTC] PHP   6. wp_admin_headers() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:15 UTC] PHP   7. header() C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php:1198
+[01-May-2019 16:26:15 UTC] PHP Notice:  Undefined index: saved in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 343
+[01-May-2019 16:26:15 UTC] PHP Stack trace:
+[01-May-2019 16:26:15 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:15 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:15 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:15 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:15 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:15 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:15 UTC] PHP Notice:  Undefined index: reset in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 346
+[01-May-2019 16:26:15 UTC] PHP Stack trace:
+[01-May-2019 16:26:15 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:15 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:15 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:15 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:15 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:15 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:15 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 133
+[01-May-2019 16:26:15 UTC] PHP Stack trace:
+[01-May-2019 16:26:15 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:15 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:15 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:15 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:15 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:15 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:15 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:26:15 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:26:15 UTC] PHP Notice:  Undefined index: std in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 134
+[01-May-2019 16:26:15 UTC] PHP Stack trace:
+[01-May-2019 16:26:15 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:15 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:15 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:15 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:15 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:15 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:15 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:26:15 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:26:15 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 140
+[01-May-2019 16:26:15 UTC] PHP Stack trace:
+[01-May-2019 16:26:15 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:15 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:15 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:15 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:15 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:15 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:15 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:26:15 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 16:26:15 UTC] PHP Notice:  Undefined index: id in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 140
+[01-May-2019 16:26:15 UTC] PHP Stack trace:
+[01-May-2019 16:26:15 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[01-May-2019 16:26:15 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[01-May-2019 16:26:15 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[01-May-2019 16:26:15 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 16:26:15 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 16:26:15 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[01-May-2019 16:26:15 UTC] PHP   7. create_form() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:354
+[01-May-2019 16:26:15 UTC] PHP   8. create_title_field() C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:266
+[01-May-2019 17:17:14 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 313
+[01-May-2019 17:17:14 UTC] PHP Stack trace:
+[01-May-2019 17:17:14 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\edit-comments.php:0
+[01-May-2019 17:17:14 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\edit-comments.php:10
+[01-May-2019 17:17:14 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[01-May-2019 17:17:14 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[01-May-2019 17:17:14 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[01-May-2019 17:17:14 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[01-May-2019 17:17:14 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[01-May-2019 17:17:14 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[03-May-2019 13:30:46 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 270
+[03-May-2019 13:30:46 UTC] PHP Stack trace:
+[03-May-2019 13:30:46 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\index.php:0
+[03-May-2019 13:30:46 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\index.php:10
+[03-May-2019 13:30:46 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[03-May-2019 13:30:46 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[03-May-2019 13:30:46 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[03-May-2019 13:30:46 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[03-May-2019 13:30:46 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[03-May-2019 13:30:46 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[03-May-2019 13:30:54 UTC] PHP Notice:  Undefined index: page in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 270
+[03-May-2019 13:30:54 UTC] PHP Stack trace:
+[03-May-2019 13:30:54 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\update-core.php:0
+[03-May-2019 13:30:54 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\update-core.php:10
+[03-May-2019 13:30:54 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[03-May-2019 13:30:54 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[03-May-2019 13:30:54 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[03-May-2019 13:30:54 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[03-May-2019 13:30:54 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[03-May-2019 13:30:54 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[03-May-2019 13:31:49 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 271
+[03-May-2019 13:31:49 UTC] PHP Stack trace:
+[03-May-2019 13:31:49 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[03-May-2019 13:31:49 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[03-May-2019 13:31:49 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[03-May-2019 13:31:49 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[03-May-2019 13:31:49 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[03-May-2019 13:31:49 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[03-May-2019 13:31:49 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[03-May-2019 13:31:49 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[03-May-2019 13:31:49 UTC] PHP Notice:  Undefined index: action in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 286
+[03-May-2019 13:31:49 UTC] PHP Stack trace:
+[03-May-2019 13:31:49 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[03-May-2019 13:31:49 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[03-May-2019 13:31:49 UTC] PHP   3. require() C:\xampp\htdocs\wordpress\wp-admin\admin.php:152
+[03-May-2019 13:31:49 UTC] PHP   4. require_once() C:\xampp\htdocs\wordpress\wp-admin\menu.php:308
+[03-May-2019 13:31:49 UTC] PHP   5. do_action() C:\xampp\htdocs\wordpress\wp-admin\includes\menu.php:154
+[03-May-2019 13:31:49 UTC] PHP   6. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[03-May-2019 13:31:49 UTC] PHP   7. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[03-May-2019 13:31:49 UTC] PHP   8. dannydeveloper_add_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[03-May-2019 13:31:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php:286) in C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php on line 1198
+[03-May-2019 13:31:49 UTC] PHP Stack trace:
+[03-May-2019 13:31:49 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[03-May-2019 13:31:49 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[03-May-2019 13:31:49 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:169
+[03-May-2019 13:31:49 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[03-May-2019 13:31:49 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[03-May-2019 13:31:49 UTC] PHP   6. wp_admin_headers() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[03-May-2019 13:31:49 UTC] PHP   7. header() C:\xampp\htdocs\wordpress\wp-admin\includes\misc.php:1198
+[03-May-2019 13:31:49 UTC] PHP Notice:  Undefined index: saved in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 305
+[03-May-2019 13:31:49 UTC] PHP Stack trace:
+[03-May-2019 13:31:49 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[03-May-2019 13:31:49 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[03-May-2019 13:31:49 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[03-May-2019 13:31:49 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[03-May-2019 13:31:49 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[03-May-2019 13:31:49 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
+[03-May-2019 13:31:49 UTC] PHP Notice:  Undefined index: reset in C:\xampp\htdocs\wordpress\wp-content\themes\dannydeveloper\options.php on line 308
+[03-May-2019 13:31:49 UTC] PHP Stack trace:
+[03-May-2019 13:31:49 UTC] PHP   1. {main}() C:\xampp\htdocs\wordpress\wp-admin\themes.php:0
+[03-May-2019 13:31:49 UTC] PHP   2. require_once() C:\xampp\htdocs\wordpress\wp-admin\themes.php:10
+[03-May-2019 13:31:49 UTC] PHP   3. do_action() C:\xampp\htdocs\wordpress\wp-admin\admin.php:253
+[03-May-2019 13:31:49 UTC] PHP   4. WP_Hook->do_action() C:\xampp\htdocs\wordpress\wp-includes\plugin.php:465
+[03-May-2019 13:31:49 UTC] PHP   5. WP_Hook->apply_filters() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:310
+[03-May-2019 13:31:49 UTC] PHP   6. dannydeveloper_admin() C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:286
